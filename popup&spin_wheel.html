@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP-UP</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="spin_wheel.css">
+    <link rel="stylesheet" href="background_effect.css">
+</head>
+<body>
+    <div class="wrapper">
+    <h1>Are You Facing Difficulty In Making Any Decision? <br />Click On Button Below To Spin A Wheel</h1>
+    <img style="text-align: center;" src="images.png" alt="questioning-image" />
+    <div id="popup-button">
+        <button>Open Popup</button>
+    </div>  
+    <div class="popup-overlay"></div>
+    <div class="popup">
+        <h2 style="color: yellow; background-color: red; text-align: center;">Ye Popup Window Hai</h2>
+        <button id="spin" onclick="spin();">Spin</button>
+        <div class="arrow"></div>
+        <div class="container">
+            <div id="one">YES</div>
+            <div id="two">NO</div>
+            <div id="three">YES</div>
+            <div id="four">NO</div>
+            <div id="five">YES</div>
+            <div id="six">NO</div>
+            <div id="seven">YES</div>
+            <div id="eight">NO</div>
+        </div>
+        <div id="popup-close-button">
+            &times;
+        </div>
+    </div> 
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="popup.js"></script>
+<script src="spin_wheel.js"></script>
+</html>
